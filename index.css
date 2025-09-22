@@ -1,0 +1,147 @@
+html {
+  font-size: 100%;
+  font-family: "shabnam";
+  background-color: rgb(158, 177, 161);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("./Shabnam/shabnam/Shabnam.woff2");
+  src: url("./Shabnam.woff2");
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.conteiner {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 0.6rem;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.4rem;
+}
+.section {
+  background-color: rgb(58, 133, 108);
+}
+.section:hover {
+  cursor: pointer;
+}
+.navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3rem;
+  margin: auto;
+  width: 12rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.reset {
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+.reset:hover {
+  background-color: bisque;
+}
+.redpoint {
+  color: rgb(255, 255, 255);
+  border-radius: 5rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("./USSR_Flag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bluepoint {
+  color:blanchedalmond;
+  border-radius: 5rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("./images.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon{
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 2rem;
+}
+.icon:hover{
+  cursor: pointer;
+}
+.mute{
+  background-image: url("./bs.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.unmute{
+  background-image: url("./bn.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+.red {
+  background-image: url("./USSR_Flag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blue {
+  background-image: url("./images.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.none{
+  opacity: 0;
+  transition: all 2000ms;
+}
+.stalin{
+  background-image: url("./joseph-stalin.jpg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 2000ms;
+}
+.hitler{
+  background-image: url("./08-04-2013-05-16-20-AM.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 2000ms;
+}
+.noclick{
+  pointer-events: none;
+  user-select: none;
+}
